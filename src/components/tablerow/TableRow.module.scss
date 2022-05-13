@@ -1,0 +1,27 @@
+tr{
+    position: relative;
+}
+
+td{
+    padding: 0 4px;
+    text-align: center;
+}
+
+.popover{
+    position: absolute;
+    right: 32px;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 2px 1px 20px 0 lightgray;
+    z-index: 3;
+}
+
+img.action{
+    cursor: pointer;
+}
+
+span.link{
+    cursor: pointer;
+    display: block;
+    padding: 0 8px;
+}

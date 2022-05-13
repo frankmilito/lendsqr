@@ -1,0 +1,42 @@
+@import '../../common/colors.scss';
+@import '../../common/screens.scss';
+
+.container{
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 100%;
+    background-color: #ffffff;
+    padding: 16px;
+    z-index: 8;
+    .nav_item{
+        font-size: 16px;
+        color: $primary-color;
+        margin:8px 0;
+        display: flex;
+        cursor: pointer;
+        padding: 8px 0;
+        &:hover{
+            background-color: #f3fcfc;
+        }
+        .icon_box{
+            width: 16px;
+            margin-right: 4px;
+            flex:1
+        }
+        .icon_text{
+            flex:10
+        }
+        .icon_action{
+            flex: 1
+        }
+    }
+
+    .category{
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500;
+        color: $primary-color;
+    }
+}

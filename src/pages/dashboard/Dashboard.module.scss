@@ -1,0 +1,35 @@
+@import '../../common/colors.scss';
+@import '../../common/screens.scss';
+
+.root{
+    .container{
+        display: flex;
+        margin-top: 100px;
+        .nav_container{
+            flex: 1;
+            @include mobile{
+                display: none;
+            }
+        }
+        .content_container{
+            flex: 4;
+            background-color: #fbfbfb;
+            padding: 3%;
+            max-width: 100%;
+            .heading{
+                color: $primary-color;
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 24px;
+            }
+            .cards_container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                background-color: #fbfbfb;
+                gap: 16px;
+            }
+
+        }
+    }
+}
