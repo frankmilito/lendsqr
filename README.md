@@ -1,20 +1,8 @@
 # Lendsqr User Dashboard 
 
-This project implements four screens using React JS, with routes
-- '/'
-- '/dashboard'
-- '/user/[id]'
-
----
-
-## Technologies
-
-A list of technologies used within the project :
-
-- [react](https://www.npmjs.com/package/react): Version 17.0.2
-- [react-dom](https://www.npmjs.com/package/react-dom): Version 17.0.2
-- [sass](https://www.npmjs.com/package/sass): Version 1.49.8
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom): Version 6.2.1
+##How to run this project
+####git clone this repository
+####run npm install && npm run start
 
 # Getting Started
 
